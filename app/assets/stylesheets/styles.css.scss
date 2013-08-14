@@ -1,0 +1,34 @@
+/*You could change the font:
+$baseFontFamily: Font Name;
+@import url(Font URL);*/
+
+$baseFontFamily: Happy Monkey;
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
+
+/*To change button color*/
+$btnPrimaryBackground: green;
+/*To change the navbar color*/
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/*To remove shadow underneath navbar:
+.navbar-inner {
+	@include box-shadow (none !important);
+	border: 0;
+}*/
+
+.footer {
+	margin-top: 50px;
+	color: $black;
+	a {
+		color: $blue;
+	}
+}
